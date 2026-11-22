@@ -12,8 +12,8 @@ def rmse(y_true, y_pred):
     if y_true.size == 0:
         raise ValueError("Arrays cannot be empty")
 
-    #if not np.all(np.isfinite(y_true)) or not np.all(np.isfinite(y_pred)):
-    #    raise ValueError("Arrays must contain finite values")
+    if not np.all(np.isfinite(y_true)) or not np.all(np.isfinite(y_pred)):
+        raise ValueError("Arrays must contain finite values")
     total = np.mean((y_true-y_pred)**2)
     rmse_res = np.sqrt(total)
     return round(rmse_res,3)
