@@ -12,4 +12,7 @@ def r_squared(y_true, y_pred):
     for i in range(len(y_pred)):
         ssr += (y_pred[i]-y_true[i])*(y_pred[i]-y_true[i])
     
-    return 1-ssr/sst
+    ssr1 = np.sum((y_pred-y_true)**2)
+    sst1 = np.sum((y_true-avg)**2)
+    
+    return 1-ssr1/sst1
