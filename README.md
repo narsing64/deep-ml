@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**15** solved · 14 problems · 0 labs · 1 math
+**16** solved · 15 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -17,6 +17,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Root Mean Square Error (RMSE)](https://www.deep-ml.com/problems/71) | easy | 2026-11-22 | [solution](problems/0071-calculate-root-mean-square-error-rmse) |
 | [Detect Overfitting or Underfitting](https://www.deep-ml.com/problems/86) | easy | 2026-11-22 | [solution](problems/0086-detect-overfitting-or-underfitting) |
 | [Feature Scaling Implementation](https://www.deep-ml.com/problems/16) | easy | 2026-11-22 | [solution](problems/0016-feature-scaling-implementation) |
+| [Implement Ridge Regression Loss Function](https://www.deep-ml.com/problems/43) | easy | 2026-11-23 | [solution](problems/0043-implement-ridge-regression-loss-function) |
 | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15) | easy | 2026-11-21 | [solution](problems/0015-linear-regression-using-gradient-descent) |
 | [Linear Regression Using Normal Equation](https://www.deep-ml.com/problems/14) | easy | 2026-11-21 | [solution](problems/0014-linear-regression-using-normal-equation) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-11-21 | [solution](problems/0001-matrix-vector-dot-product) |
